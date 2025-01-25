@@ -1,3 +1,17 @@
+# VCD
+
+Disclaimer: Not my work, but https://github.com/yne/vcd/pull/19 with the unmerged PR.
+
+Also dockerized it for ease of use.
+
+## Usage:
+
+```
+docker run --rm -v $PWD:/obj davidsiaw/vcd /obj/samples/basic.vcd
+```
+
+# Original README
+
 <img src=.github/logo.svg width=100% height=200>
 
 Value Change Dump (.vcd) command line viewer for Windows, Linux and MacOS
